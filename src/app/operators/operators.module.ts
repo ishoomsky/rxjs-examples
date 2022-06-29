@@ -12,9 +12,13 @@ const routes: Routes = [
     children: [
       {
         path: 'of',
-        component: OfOperatorComponent
-      }
-    ]
+        component: OfOperatorComponent,
+      },
+      {
+        path: 'ajax',
+        component: AjaxOperatorComponent,
+      },
+    ],
   },
 ];
 
